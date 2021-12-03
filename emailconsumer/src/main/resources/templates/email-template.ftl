@@ -59,7 +59,7 @@
             <div style="padding: 20px;">
 
                 <h1 style="color: #fdf9f0">Olá ${nomeUsuario}  </h1>
-                <h2><p style="color: #a4a4a6;"> <bold>${mensagem}</bold></h2></p><br>
+              <h2><i><u> <b> <p style="color: #a4a4a6;"> ${mensagem} </b> </i></u> </p></h2><br>
 
 
 
