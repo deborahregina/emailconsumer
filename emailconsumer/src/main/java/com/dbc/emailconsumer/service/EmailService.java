@@ -42,10 +42,12 @@ public class EmailService {
         helper.setTo(emailDTO.getDestinatario());
         helper.setSubject(emailDTO.getAssunto());
 
-        Template template = configuration.getTemplate("email-template.ftl");
+        Template template = configuration.getTemplate("email-template-promocao.ftl");
         Map<String, Object> dados = new HashMap<>();
         dados.put("nomeUsuario", emailDTO.getNomeCliente());
         dados.put("mensagem", emailDTO.getMensagem());
+        dados.put("data", emailDTO.getData());
+        dados.put("assunto", emailDTO.getAssunto());
         String html = FreeMarkerTemplateUtils.processTemplateIntoString(template, dados);
         helper.setText(html, true);
         emailSender.send(mimeMessage);

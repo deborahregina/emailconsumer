@@ -9,5 +9,6 @@ public class EmailDTO {
     private String mensagem;
     private String destinatario;
     private String assunto;
+    private String data;
 
 }
