@@ -104,12 +104,12 @@
     <table border="0" width="100%" align="center" cellspacing="0" cellpadding="0">
       <tr>
         <td align="center" style="background-color: #daa04a; font-size: 28px; font-weight: 400; color: #fdf9f0; padding: 30px 0;">
-          <span>Compartilhe com os seus amigos</span>
+          <span>Tenham um otimo dia</span>
         </td>
       </tr>
       <tr>
         <td align="center" style="background-color: #000000; font-size: 14px; font-weight: 400; color: #FFFFFF;">
-          <span>Compartilhe nossa URL única com os seus amigos com R$ 10,00 de crédito.</span>
+          <span>Clique em nossa URL e avalie nosso atendimento.</span>
         </td>
       </tr>
 
@@ -133,7 +133,7 @@
       <tr>
         <td align="center" style="font-size: 14px; font-weight: 400; color: ##fdf9f0;">
           <br><br>
-          <span>Obrigado por ser um ótimo cliente!</span>
+          <span>ATT, a gestão!</span>
           <br><br><br>
         </td>
       </tr>
